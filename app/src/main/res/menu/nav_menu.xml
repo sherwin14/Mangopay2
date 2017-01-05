@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_article"
+            android:icon="@drawable/ic_library_books"
+            android:title="Articles" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_star"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/nav_purse"
+            android:icon="@drawable/ic_account_balance"
+            android:title="Purse" />
+        <item
+            android:id="@+id/nav_place"
+            android:icon="@drawable/ic_room"
+            android:title="Places" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_account_circle"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_question_answer"
+            android:title="FAQs" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app"
+            android:title="Logout" />
+    </group>
+
+</menu>
