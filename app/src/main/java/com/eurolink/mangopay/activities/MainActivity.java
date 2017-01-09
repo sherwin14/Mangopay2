@@ -171,7 +171,7 @@ public class MainActivity extends BaseActivity
     private void ShowFragment(Fragment fr){
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
-        ft.replace(R.id.article_fragment,fr);
+        ft.replace(R.id.content_container,fr);
         ft.commit();
     }
 }
